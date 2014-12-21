@@ -1,0 +1,1 @@
+Swift implementation of a basic NSCollectionViewController that is created programatically.  Based on an example on StackOverflow http://stackoverflow.com/questions/8660626/how-to-create-nscollectionview-programatically-from-scratch 

@@ -393,6 +393,7 @@
 				2122AC9C1A47708100BCC111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2122AC9D1A47708100BCC111 /* Build configuration list for PBXNativeTarget "ProgrammaticNSCollectionViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +402,7 @@
 				2122AC9F1A47708100BCC111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
