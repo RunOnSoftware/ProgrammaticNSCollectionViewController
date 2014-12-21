@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2122AC861A47708100BCC111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2122AC851A47708100BCC111 /* AppDelegate.swift */; };
+		2122AC881A47708100BCC111 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2122AC871A47708100BCC111 /* Images.xcassets */; };
+		2122AC8B1A47708100BCC111 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2122AC891A47708100BCC111 /* MainMenu.xib */; };
+		2122AC971A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2122AC961A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2122AC911A47708100BCC111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2122AC781A47708100BCC111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2122AC7F1A47708100BCC111;
+			remoteInfo = ProgrammaticNSCollectionViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2122AC801A47708100BCC111 /* ProgrammaticNSCollectionViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticNSCollectionViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2122AC841A47708100BCC111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2122AC851A47708100BCC111 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2122AC871A47708100BCC111 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2122AC8A1A47708100BCC111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2122AC901A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticNSCollectionViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2122AC951A47708100BCC111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2122AC961A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNSCollectionViewControllerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2122AC7D1A47708100BCC111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2122AC8D1A47708100BCC111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2122AC771A47708100BCC111 = {
+			isa = PBXGroup;
+			children = (
+				2122AC821A47708100BCC111 /* ProgrammaticNSCollectionViewController */,
+				2122AC931A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests */,
+				2122AC811A47708100BCC111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2122AC811A47708100BCC111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2122AC801A47708100BCC111 /* ProgrammaticNSCollectionViewController.app */,
+				2122AC901A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2122AC821A47708100BCC111 /* ProgrammaticNSCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2122AC851A47708100BCC111 /* AppDelegate.swift */,
+				2122AC871A47708100BCC111 /* Images.xcassets */,
+				2122AC891A47708100BCC111 /* MainMenu.xib */,
+				2122AC831A47708100BCC111 /* Supporting Files */,
+			);
+			path = ProgrammaticNSCollectionViewController;
+			sourceTree = "<group>";
+		};
+		2122AC831A47708100BCC111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2122AC841A47708100BCC111 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2122AC931A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2122AC961A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.swift */,
+				2122AC941A47708100BCC111 /* Supporting Files */,
+			);
+			path = ProgrammaticNSCollectionViewControllerTests;
+			sourceTree = "<group>";
+		};
+		2122AC941A47708100BCC111 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2122AC951A47708100BCC111 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2122AC7F1A47708100BCC111 /* ProgrammaticNSCollectionViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2122AC9A1A47708100BCC111 /* Build configuration list for PBXNativeTarget "ProgrammaticNSCollectionViewController" */;
+			buildPhases = (
+				2122AC7C1A47708100BCC111 /* Sources */,
+				2122AC7D1A47708100BCC111 /* Frameworks */,
+				2122AC7E1A47708100BCC111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgrammaticNSCollectionViewController;
+			productName = ProgrammaticNSCollectionViewController;
+			productReference = 2122AC801A47708100BCC111 /* ProgrammaticNSCollectionViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2122AC8F1A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2122AC9D1A47708100BCC111 /* Build configuration list for PBXNativeTarget "ProgrammaticNSCollectionViewControllerTests" */;
+			buildPhases = (
+				2122AC8C1A47708100BCC111 /* Sources */,
+				2122AC8D1A47708100BCC111 /* Frameworks */,
+				2122AC8E1A47708100BCC111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2122AC921A47708100BCC111 /* PBXTargetDependency */,
+			);
+			name = ProgrammaticNSCollectionViewControllerTests;
+			productName = ProgrammaticNSCollectionViewControllerTests;
+			productReference = 2122AC901A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2122AC781A47708100BCC111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "John McKnight";
+				TargetAttributes = {
+					2122AC7F1A47708100BCC111 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2122AC8F1A47708100BCC111 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2122AC7F1A47708100BCC111;
+					};
+				};
+			};
+			buildConfigurationList = 2122AC7B1A47708100BCC111 /* Build configuration list for PBXProject "ProgrammaticNSCollectionViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2122AC771A47708100BCC111;
+			productRefGroup = 2122AC811A47708100BCC111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2122AC7F1A47708100BCC111 /* ProgrammaticNSCollectionViewController */,
+				2122AC8F1A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2122AC7E1A47708100BCC111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2122AC881A47708100BCC111 /* Images.xcassets in Resources */,
+				2122AC8B1A47708100BCC111 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2122AC8E1A47708100BCC111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2122AC7C1A47708100BCC111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2122AC861A47708100BCC111 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2122AC8C1A47708100BCC111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2122AC971A47708100BCC111 /* ProgrammaticNSCollectionViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2122AC921A47708100BCC111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2122AC7F1A47708100BCC111 /* ProgrammaticNSCollectionViewController */;
+			targetProxy = 2122AC911A47708100BCC111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2122AC891A47708100BCC111 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2122AC8A1A47708100BCC111 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2122AC981A47708100BCC111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2122AC991A47708100BCC111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2122AC9B1A47708100BCC111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProgrammaticNSCollectionViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2122AC9C1A47708100BCC111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ProgrammaticNSCollectionViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2122AC9E1A47708100BCC111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProgrammaticNSCollectionViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammaticNSCollectionViewController.app/Contents/MacOS/ProgrammaticNSCollectionViewController";
+			};
+			name = Debug;
+		};
+		2122AC9F1A47708100BCC111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProgrammaticNSCollectionViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgrammaticNSCollectionViewController.app/Contents/MacOS/ProgrammaticNSCollectionViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2122AC7B1A47708100BCC111 /* Build configuration list for PBXProject "ProgrammaticNSCollectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2122AC981A47708100BCC111 /* Debug */,
+				2122AC991A47708100BCC111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2122AC9A1A47708100BCC111 /* Build configuration list for PBXNativeTarget "ProgrammaticNSCollectionViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2122AC9B1A47708100BCC111 /* Debug */,
+				2122AC9C1A47708100BCC111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2122AC9D1A47708100BCC111 /* Build configuration list for PBXNativeTarget "ProgrammaticNSCollectionViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2122AC9E1A47708100BCC111 /* Debug */,
+				2122AC9F1A47708100BCC111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2122AC781A47708100BCC111 /* Project object */;
+}
